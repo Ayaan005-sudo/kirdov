@@ -1,10 +1,11 @@
 import React from 'react';
+import HeroSection from './components/HeroSection';
 
 
 function App() {
   return(
  <>
-  <h1>hello man</h1>
+  <HeroSection/>
   </>
   )
 }
