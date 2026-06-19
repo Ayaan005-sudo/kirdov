@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
+
 const RegistrationForm = () => {
   
   const {
@@ -21,7 +22,7 @@ const RegistrationForm = () => {
     setStatusMessage(null);
 
     try {
-      const response = await fetch('http://localhost:3000/enquiry', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/enquiry`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
