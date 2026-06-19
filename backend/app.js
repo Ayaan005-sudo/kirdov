@@ -6,7 +6,7 @@ const userModel = require("./model/userSchema");
 const cors = require('cors');
 app.use(express.json());
 app.use(cors({
-    origin: "https://kirdov.vercel.app"
+    origin: "*"
 }));
 
 async function main(){

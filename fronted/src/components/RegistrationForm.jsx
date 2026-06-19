@@ -70,7 +70,7 @@ const RegistrationForm = () => {
             })}
             className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500"
           />
-          {errors.name && (
+          {errors.username && (
             <p className="text-red-500 text-xs mt-1">{errors.name.message}</p>
           )}
         </div>
@@ -114,7 +114,7 @@ const RegistrationForm = () => {
             })}
             className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-500"
           />
-          {errors.phone && (
+          {errors.mobile && (
             <p className="text-red-500 text-xs mt-1">{errors.phone.message}</p>
           )}
         </div>
