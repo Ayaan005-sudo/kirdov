@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection';
 import WorkshopDetails from './components/WorkShopdetails';
 import LearningOutcomes from './components/LearningOutcomes';
 import FAQSection from './components/FAQSection';
+import RegistrationForm from './components/RegistrationForm';
 
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
   <WorkshopDetails/>
   <LearningOutcomes/>
   <FAQSection/>
+  <RegistrationForm/>
+
   </>
   )
 }
