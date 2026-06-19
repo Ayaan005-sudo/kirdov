@@ -17,8 +17,10 @@ main()
 .catch((e)=>console.log(e.message));
 
 
-let port=3000;
-app.listen(port,()=>{
+const PORT = process.env.PORT || 3000;
+
+
+app.listen(PORT,()=>{
     console.log("app is listening to the port");
 });
 
